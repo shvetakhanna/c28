@@ -39,6 +39,7 @@ function setup(){
     bird = new Bird(100,100);
 
     //log6 = new Log(230,180,80, PI/2);
+    console.log("hello")
     slingshot = new SlingShot(bird.body,{x:200, y:100});
 }
 
